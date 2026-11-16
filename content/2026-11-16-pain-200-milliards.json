@@ -1,0 +1,402 @@
+{
+  "id": "2026-11-16-pain-200-milliards",
+  "title": "Le pain à 200 milliards de marks",
+  "theme": "histoire économique",
+  "scenes": [
+    {
+      "narration": "En novembre 1923, en Allemagne, un pain coûte 200 milliards de marks.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "lines": [
+            "En novembre 1923,",
+            "en Allemagne,"
+          ],
+          "at": "en"
+        },
+        {
+          "kind": "big",
+          "gap": 0.5,
+          "lines": [
+            "un pain coûte"
+          ],
+          "at": "un pain"
+        },
+        {
+          "kind": "num",
+          "lines": [
+            "==200 000 000 000=="
+          ],
+          "at": "200 milliards"
+        },
+        {
+          "kind": "big",
+          "lines": [
+            "marks."
+          ],
+          "at": "de marks"
+        },
+        {
+          "kind": "hand",
+          "gap": 0.5,
+          "lines": [
+            "soit 200 milliards"
+          ],
+          "at": "milliards"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "narration": "Dix mois plus tôt, le même pain valait 250 marks.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "note": [
+            "janv.",
+            "1923"
+          ],
+          "lines": [
+            "Dix mois plus tôt,",
+            "le même pain valait"
+          ],
+          "at": "dix"
+        },
+        {
+          "kind": "num",
+          "lines": [
+            "250 marks"
+          ],
+          "at": "250"
+        },
+        {
+          "kind": "hand",
+          "gap": 0.5,
+          "lines": [
+            "prix multiplié par 800 millions"
+          ],
+          "at": "marks"
+        }
+      ],
+      "hold": 0.7
+    },
+    {
+      "narration": "Comment est-ce possible ? L'Allemagne doit 132 milliards de marks-or de réparations de guerre. En janvier 1923, la France et la Belgique occupent la Ruhr. Berlin soutient les grévistes en imprimant des billets.",
+      "blocks": [
+        {
+          "kind": "big",
+          "lines": [
+            "Comment est-ce",
+            "possible ?"
+          ],
+          "at": "comment"
+        },
+        {
+          "kind": "timeline",
+          "gap": 1,
+          "events": [
+            {
+              "note": [
+                "1921"
+              ],
+              "title": [
+                "==132 milliards== de marks-or"
+              ],
+              "sub": [
+                "de réparations de guerre à payer"
+              ],
+              "at": "132 milliards"
+            },
+            {
+              "note": [
+                "janv.",
+                "1923"
+              ],
+              "title": [
+                "La France et la Belgique",
+                "occupent la Ruhr"
+              ],
+              "at": "janvier"
+            },
+            {
+              "note": [
+                "1923"
+              ],
+              "title": [
+                "Berlin paie les grévistes",
+                "en ==imprimant des billets=="
+              ],
+              "at": "Berlin",
+              "markAt": "imprimant"
+            }
+          ]
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "narration": "À l'automne, les prix doublent en moins de quatre jours. Les salaires sont versés chaque jour. Et un dollar vaut 4 200 milliards de marks.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "note": [
+            "oct.",
+            "1923"
+          ],
+          "lines": [
+            "Les prix doublent en",
+            "==moins de quatre jours=="
+          ],
+          "at": "prix",
+          "markAt": "quatre"
+        },
+        {
+          "kind": "txt",
+          "lines": [
+            "Salaires versés chaque jour"
+          ],
+          "at": "salaires",
+          "gap": 0.25
+        },
+        {
+          "kind": "chart",
+          "gap": 0,
+          "title": "Marks pour 1 dollar",
+          "hint": "un carreau vers le haut = × 100",
+          "x": {
+            "from": 1918,
+            "to": 1924,
+            "ticks": [
+              1919,
+              1920,
+              1921,
+              1922,
+              1923
+            ]
+          },
+          "y": {
+            "fromExp": 0,
+            "ticks": [
+              {
+                "exp": 4,
+                "label": "10 000"
+              },
+              {
+                "exp": 8,
+                "label": "100 millions"
+              }
+            ]
+          },
+          "points": [
+            [
+              1919.0,
+              8.9
+            ],
+            [
+              1920.0,
+              64.8
+            ],
+            [
+              1921.5,
+              90
+            ],
+            [
+              1922.25,
+              320
+            ],
+            [
+              1923.0,
+              17972
+            ],
+            [
+              1923.5,
+              353412
+            ],
+            [
+              1923.87,
+              4200000000000
+            ]
+          ],
+          "split": 5,
+          "delay": 0.3,
+          "spikeAt": "4200 milliards",
+          "endLabel": "==4 200 milliards==",
+          "endNote": "novembre 1923"
+        }
+      ],
+      "hold": 0.9
+    },
+    {
+      "narration": "Le 15 novembre, un nouveau mark remplace l'ancien : on raye douze zéros.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "note": [
+            "15 nov.",
+            "1923"
+          ],
+          "lines": [
+            "Un nouveau mark",
+            "remplace l'ancien :"
+          ],
+          "at": "un nouveau"
+        },
+        {
+          "kind": "num",
+          "lines": [
+            "1~~ 000 000 000 000~~"
+          ],
+          "at": "l'ancien",
+          "markAt": "douze"
+        },
+        {
+          "kind": "small",
+          "lines": [
+            "marks-papier"
+          ],
+          "at": "l'ancien"
+        },
+        {
+          "kind": "big",
+          "gap": 1,
+          "lines": [
+            "= ==1 Rentenmark=="
+          ],
+          "at": "zéros"
+        }
+      ],
+      "hold": 0.9
+    },
+    {
+      "narration": "Une monnaie ne vaut que la confiance qu'on lui accorde.",
+      "blocks": [
+        {
+          "kind": "big",
+          "lines": [
+            "Une monnaie",
+            "ne vaut que",
+            "==la confiance==",
+            "qu'on lui accorde."
+          ],
+          "at": "une monnaie",
+          "markAt": "confiance"
+        },
+        {
+          "kind": "small",
+          "gap": 1.5,
+          "lines": [
+            "Sources : Deutscher Bundestag,",
+            "Deutsches Historisches Museum (LeMO),",
+            "BBC Bitesize"
+          ],
+          "at": "ne vaut"
+        }
+      ],
+      "hold": 0.9
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Pain : 250 marks en janvier 1923, 201 milliards en novembre 1923",
+      "sources": [
+        "bundestag",
+        "bbc"
+      ]
+    },
+    {
+      "claim": "1 dollar = 4 200 milliards de marks en novembre 1923",
+      "sources": [
+        "bundestag",
+        "dhm"
+      ]
+    },
+    {
+      "claim": "Réparations fixées à 132 milliards de marks-or (1921)",
+      "sources": [
+        "major-prepa",
+        "eco3min"
+      ]
+    },
+    {
+      "claim": "Occupation de la Ruhr par la France et la Belgique en janvier 1923, grève financée par la création monétaire",
+      "sources": [
+        "major-prepa",
+        "bbc"
+      ]
+    },
+    {
+      "claim": "Prix doublant tous les 3,7 jours en octobre 1923",
+      "sources": [
+        "historyskills",
+        "financialpipeline"
+      ]
+    },
+    {
+      "claim": "Salaires versés chaque jour",
+      "sources": [
+        "bundestag"
+      ]
+    },
+    {
+      "claim": "Rentenmark émis le 15 novembre 1923, 1 Rentenmark = 1 000 milliards de marks-papier",
+      "sources": [
+        "bundestag",
+        "dhm"
+      ]
+    },
+    {
+      "claim": "Courbe du dollar : 8,9 (janv. 1919), 64,8 (janv. 1920), ~90 (1921), ~320 (1922), 17 972 (janv. 1923), 353 412 (juil. 1923)",
+      "sources": [
+        "eco3min",
+        "moneycodex"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bundestag",
+      "label": "Deutscher Bundestag – Hyperinflation in Deutschland 1923",
+      "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722"
+    },
+    {
+      "id": "dhm",
+      "label": "Deutsches Historisches Museum (LeMO) – Währungsreform 1923",
+      "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/waehrungsreform-1923.html"
+    },
+    {
+      "id": "bbc",
+      "label": "BBC Bitesize – The hyperinflation crisis, 1923",
+      "url": "https://www.bbc.co.uk/bitesize/guides/zx8bmnb/revision/4"
+    },
+    {
+      "id": "major-prepa",
+      "label": "Major-Prépa – L'hyperinflation allemande de 1923",
+      "url": "https://major-prepa.com/economie/hyperinflation-allemande-1923-illustration-theories-monetaires/"
+    },
+    {
+      "id": "eco3min",
+      "label": "Eco3min – Weimar hyperinflation 1923, anatomy",
+      "url": "https://eco3min.fr/en/weimar-hyperinflation-1923-anatomy/"
+    },
+    {
+      "id": "historyskills",
+      "label": "History Skills – Hyperinflation in Germany",
+      "url": "https://www.historyskills.com/classroom/modern-history/hyperinflation-in-germany"
+    },
+    {
+      "id": "financialpipeline",
+      "label": "Financial Pipeline – historic hyperinflations (taux Hanke)",
+      "url": "https://financialpipeline.com/?p=116056"
+    },
+    {
+      "id": "moneycodex",
+      "label": "Money Codex – Weimar hyperinflation",
+      "url": "https://moneycodex.pages.dev/debasement/weimar-hyperinflation"
+    }
+  ],
+  "captions": {
+    "short": "En novembre 1923, un pain coûte 200 milliards de marks en Allemagne. Dix mois plus tôt : 250. Comment une monnaie s'effondre-t-elle aussi vite ?\n\nSources : Deutscher Bundestag, Deutsches Historisches Museum (LeMO).\n\n#histoire #économie #culturegénérale #inflation #1923",
+    "youtube_title": "Le pain à 200 milliards de marks (Allemagne, 1923)",
+    "youtube_description": "En novembre 1923, un pain coûte 200 milliards de marks en Allemagne. Dix mois plus tôt, il en valait 250. Réparations de guerre, occupation de la Ruhr, planche à billets : l'hyperinflation allemande en 45 secondes.\n\nSources : Deutscher Bundestag (Hyperinflation in Deutschland 1923), Deutsches Historisches Museum (LeMO, Währungsreform 1923).\n\n#histoire #économie #culturegénérale"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "engine": "chatterbox",
+  "reference": "voices/reference-fr.wav",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.4,
+  "kokoro": { "name": "ff_siwis", "speed": 1.05 }
+}

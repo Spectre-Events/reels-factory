@@ -1,0 +1,17 @@
+{
+  "name": "reels-factory",
+  "version": "1.0.0",
+  "description": "Fabrique de reels de culture générale : script JSON -> vidéo verticale (voix, animations, sous-titres).",
+  "scripts": {
+    "reel": "python3 engine/build.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource-variable/playwrite-fr-moderne": "^5.3.0",
+    "gsap": "^3.15.1"
+  },
+  "private": true
+}

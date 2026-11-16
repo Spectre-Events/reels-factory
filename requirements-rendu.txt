@@ -1,0 +1,6 @@
+# Dépendances du rendu final (GitHub Actions) : voix Chatterbox Multilingual V3 + tournage.
+# La V3 n'est pas encore dans le paquet PyPI : on installe le dépôt officiel, figé sur un commit.
+chatterbox-tts @ git+https://github.com/resemble-ai/chatterbox.git@ab55923c27757c90cfcc407baa57dc25a7d25217
+soundfile
+num2words
+playwright

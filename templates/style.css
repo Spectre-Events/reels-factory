@@ -1,0 +1,71 @@
+/* Identité : la copie Seyès. Une longue feuille à grands carreaux qu'on descend au fil du récit ;
+   l'encre bleue écrit, le surligneur jaune marque le chiffre clé, le stylo rouge corrige.
+   Tout est calé sur l'interligne de 22 px (grand carreau = 88 px). */
+
+@font-face{font-family:"Archivo";src:url("../node_modules/@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-style:normal}
+@font-face{font-family:"Playwrite FR";src:url("../node_modules/@fontsource-variable/playwrite-fr-moderne/files/playwrite-fr-moderne-fallback-wght-normal.woff2") format("woff2");font-weight:100 400;font-style:normal}
+
+:root{
+  --paper:#FAFBFE; --line:#D3DAF4; --line-strong:#AEBBEA; --margin:#E8545B;
+  --ink:#16235E; --ink-soft:#4B5890; --hl:#FFE646; --pen:#E0353B;
+  --u:22px; --sq:88px; --mx:176px; --cx:216px; --cw:800px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"Archivo",sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+
+#sheet{position:absolute;left:0;top:0;width:1080px;
+  background:
+    linear-gradient(to right,transparent calc(var(--mx) - 2px),var(--margin) calc(var(--mx) - 2px),var(--margin) calc(var(--mx) + 1px),transparent calc(var(--mx) + 1px)),
+    repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--sq) - 2px),var(--line-strong) calc(var(--sq) - 2px),var(--line-strong) var(--sq)),
+    repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--u) - 1px),var(--line) calc(var(--u) - 1px),var(--line) var(--u)),
+    repeating-linear-gradient(to right,transparent 0,transparent calc(var(--sq) - 2px),var(--line-strong) calc(var(--sq) - 2px),var(--line-strong) var(--sq)),
+    var(--paper)}
+
+.scene{position:absolute;left:0;width:1080px;height:1936px}
+.scene>svg.ink{position:absolute;left:0;top:0;width:1080px;height:1936px;overflow:visible;pointer-events:none}
+.body{position:absolute;left:var(--cx);width:var(--cw)}
+.blk{position:relative}
+.ln{display:block;width:max-content;white-space:nowrap}
+
+/* niveaux de texte */
+.k-big>.ln{font-weight:800;font-stretch:75%;font-size:100px;line-height:110px;letter-spacing:-.01em}
+.k-num>.ln{font-weight:800;font-stretch:62%;font-size:148px;line-height:176px;font-variant-numeric:tabular-nums}
+.k-txt>.ln{font-weight:650;font-stretch:88%;font-size:56px;line-height:66px}
+.k-small>.ln{font-weight:500;font-stretch:92%;font-size:36px;line-height:44px;color:var(--ink-soft)}
+.k-hand>.ln{font-family:"Playwrite FR";font-weight:400;font-size:38px;line-height:66px;color:var(--pen)}
+.k-hand.blue>.ln{color:var(--ink-soft)}
+
+/* annotation dans la marge : toujours une date, de la main de l'élève */
+.note{position:absolute;left:calc(-1 * var(--cx));top:11px;width:calc(var(--mx) - 34px);font-family:"Playwrite FR";font-weight:400;font-stretch:100%;letter-spacing:0;font-size:29px;line-height:44px;color:var(--ink-soft)}
+.note .ln{margin-left:auto}
+
+/* surligneur et stylo rouge */
+.hl{position:relative;display:inline-block;z-index:0}
+.hl>i{position:absolute;left:-.07em;right:-.07em;top:.17em;bottom:.09em;background:var(--hl);opacity:.92;z-index:-1;transform-origin:left center;border-radius:.05em .13em .07em .11em/.11em .05em .13em .07em}
+.st,.ul{display:inline-block}
+.pen{fill:none;stroke:var(--pen);stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+
+/* frise : la marge rouge sert d'axe du temps */
+.ev{position:relative;margin-top:88px}
+.ev:first-child{margin-top:0}
+.ev .dot{position:absolute;left:calc(var(--mx) - var(--cx) - 13.5px);top:20px;width:26px;height:26px;border-radius:50%;background:var(--ink);box-shadow:0 0 0 6px var(--paper)}
+.ev .t .ln{font-weight:750;font-stretch:84%;font-size:58px;line-height:66px}
+.ev .s .ln{font-weight:500;font-stretch:92%;font-size:36px;line-height:44px;color:var(--ink-soft)}
+
+/* graphique tracé directement sur les carreaux : 1 carreau = 1 an, 1 carreau = 2 puissances de dix */
+.chart{position:relative;width:var(--cw);height:748px}
+.chart .ctitle{position:absolute;left:0;top:0;font-weight:750;font-stretch:86%;font-size:42px;line-height:44px}
+.chart .chint{position:absolute;left:0;top:44px;font-family:"Playwrite FR";font-size:27px;line-height:44px;color:var(--ink-soft)}
+.chart svg{position:absolute;left:0;top:88px;width:800px;height:616px;overflow:visible}
+.chart .axis{stroke:var(--ink);stroke-width:4;stroke-linecap:round}
+.chart .series{fill:none;stroke:var(--ink);stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+.chart .end{fill:var(--ink);stroke:var(--paper);stroke-width:6}
+.chart .ytick{position:absolute;left:58px;font-weight:550;font-stretch:88%;font-size:29px;line-height:34px;color:var(--ink-soft);background:var(--paper);padding:0 6px}
+.chart .xtick{position:absolute;top:714px;width:88px;margin-left:-44px;text-align:center;font-weight:550;font-stretch:88%;font-size:29px;line-height:34px;color:var(--ink-soft)}
+.chart .endlabel{position:absolute;font-weight:800;font-stretch:78%;font-size:62px;line-height:66px;white-space:nowrap}
+.chart .endnote{position:absolute;font-family:"Playwrite FR";font-size:30px;line-height:44px;color:var(--pen);white-space:nowrap}
+
+/* sous-titres : étiquette encre, mot prononcé en jaune */
+#captions{position:absolute;left:0;top:1360px;width:1080px;height:120px;pointer-events:none}
+.pill{position:absolute;left:50%;top:50%;translate:-50% -50%;background:var(--ink);color:#fff;font-weight:750;font-stretch:86%;font-size:58px;line-height:1;padding:24px 36px 28px;border-radius:20px;white-space:nowrap;visibility:hidden}

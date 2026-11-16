@@ -1,0 +1,2 @@
+Modifier ce fichier relance les essais de voix (engine/voice_lab.py).
+Dernière demande : 2026-11-16
