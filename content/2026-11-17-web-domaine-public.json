@@ -1,0 +1,414 @@
+{
+  "id": "2026-11-17-web-domaine-public",
+  "title": "Le jour où le web est devenu gratuit",
+  "theme": "nouvelles technologies",
+  "pronunciations": {
+    "CERN": "Cerne",
+    "Berners-Lee": "Beurneurs-Li"
+  },
+  "scenes": [
+    {
+      "narration": "Fin 1990, le web entier tient sur un seul ordinateur. Il est au CERN, à Genève.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "lines": [
+            "Fin 1990,"
+          ],
+          "at": "fin"
+        },
+        {
+          "kind": "big",
+          "gap": 0.5,
+          "lines": [
+            "le web entier",
+            "tient sur"
+          ],
+          "at": "le web"
+        },
+        {
+          "kind": "num",
+          "lines": [
+            "==1 seul=="
+          ],
+          "at": "un seul"
+        },
+        {
+          "kind": "big",
+          "lines": [
+            "ordinateur."
+          ],
+          "at": "ordinateur"
+        },
+        {
+          "kind": "hand",
+          "gap": 0.5,
+          "lines": [
+            "au CERN, à Genève"
+          ],
+          "at": "CERN"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "narration": "Dessus, une étiquette écrite à la main : cette machine est un serveur, ne pas l'éteindre.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "lines": [
+            "Dessus, une étiquette",
+            "écrite à la main :"
+          ],
+          "at": "dessus"
+        },
+        {
+          "kind": "big",
+          "gap": 0.5,
+          "lines": [
+            "« Cette machine",
+            "est un serveur."
+          ],
+          "at": "cette"
+        },
+        {
+          "kind": "big",
+          "lines": [
+            "==Ne pas==",
+            "==l'éteindre !== »"
+          ],
+          "at": "ne pas",
+          "markAt": "l'éteindre"
+        },
+        {
+          "kind": "hand",
+          "gap": 0.5,
+          "lines": [
+            "This machine is a server.",
+            "DO NOT POWER IT DOWN!!"
+          ],
+          "at": "l'éteindre"
+        }
+      ],
+      "hold": 0.9
+    },
+    {
+      "narration": "Son inventeur, Tim Berners-Lee, l'a proposé en mars 1989 pour aider les chercheurs à partager leurs travaux. Début 1993, le web ne compte encore qu'une cinquantaine de serveurs.",
+      "blocks": [
+        {
+          "kind": "big",
+          "lines": [
+            "Son inventeur :",
+            "Tim Berners-Lee"
+          ],
+          "at": "son"
+        },
+        {
+          "kind": "timeline",
+          "gap": 1,
+          "events": [
+            {
+              "note": [
+                "mars",
+                "1989"
+              ],
+              "title": [
+                "Il propose le web"
+              ],
+              "sub": [
+                "pour aider les chercheurs",
+                "à partager leurs travaux"
+              ],
+              "at": "proposé"
+            },
+            {
+              "note": [
+                "début",
+                "1993"
+              ],
+              "title": [
+                "Le web ne compte que",
+                "==50 serveurs== environ"
+              ],
+              "at": "début",
+              "markAt": "cinquantaine"
+            }
+          ]
+        }
+      ],
+      "hold": 0.5
+    },
+    {
+      "narration": "Le 30 avril, le CERN renonce à ses droits sur le logiciel. Chacun peut utiliser le web gratuitement.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "note": [
+            "30 avril",
+            "1993"
+          ],
+          "lines": [
+            "Le CERN renonce",
+            "à ses droits :"
+          ],
+          "at": "le 30"
+        },
+        {
+          "kind": "big",
+          "gap": 0.5,
+          "lines": [
+            "~~Tous droits~~",
+            "~~réservés~~"
+          ],
+          "at": "renonce",
+          "markAt": "droits"
+        },
+        {
+          "kind": "txt",
+          "gap": 1,
+          "lines": [
+            "Chacun peut utiliser",
+            "le web"
+          ],
+          "at": "chacun"
+        },
+        {
+          "kind": "big",
+          "lines": [
+            "==gratuitement.=="
+          ],
+          "at": "gratuitement"
+        },
+        {
+          "kind": "small",
+          "gap": 0.5,
+          "lines": [
+            "Le logiciel passe dans le domaine public."
+          ],
+          "at": "gratuitement"
+        }
+      ],
+      "hold": 0.8
+    },
+    {
+      "narration": "À la fin de l'année, on compte plus de 600 serveurs. Un an plus tard, ils sont 10 000 : seize fois plus.",
+      "blocks": [
+        {
+          "kind": "txt",
+          "note": [
+            "fin",
+            "1993"
+          ],
+          "lines": [
+            "À la fin de l'année :"
+          ],
+          "at": "à la"
+        },
+        {
+          "kind": "txt",
+          "lines": [
+            "plus de ==600== serveurs"
+          ],
+          "at": "on compte",
+          "markAt": "600"
+        },
+        {
+          "kind": "txt",
+          "gap": 1,
+          "note": [
+            "fin",
+            "1994"
+          ],
+          "lines": [
+            "Un an plus tard :"
+          ],
+          "at": "un an"
+        },
+        {
+          "kind": "num",
+          "lines": [
+            "==10 000=="
+          ],
+          "at": "10000"
+        },
+        {
+          "kind": "big",
+          "lines": [
+            "serveurs web"
+          ],
+          "at": "10000"
+        },
+        {
+          "kind": "hand",
+          "gap": 0.5,
+          "lines": [
+            "16 fois plus en un an"
+          ],
+          "at": "seize"
+        }
+      ],
+      "hold": 0.9
+    },
+    {
+      "narration": "Offert à tous, le web a pu conquérir le monde.",
+      "blocks": [
+        {
+          "kind": "big",
+          "lines": [
+            "==Offert à tous,==",
+            "le web a pu",
+            "conquérir",
+            "le monde."
+          ],
+          "at": "offert",
+          "markAt": "tous"
+        },
+        {
+          "kind": "small",
+          "gap": 1.5,
+          "lines": [
+            "Sources : CERN, W3C, MIT (M. Gray),",
+            "Science Museum (Londres), IETF"
+          ],
+          "at": "le web"
+        }
+      ],
+      "hold": 0.9
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Fin 1990 : le premier serveur web (et le premier site) fonctionne au CERN, sur un ordinateur NeXT ; c'est alors le seul serveur web au monde",
+      "sources": [
+        "cern-histoire",
+        "w3c",
+        "sciencemuseum"
+      ]
+    },
+    {
+      "claim": "Étiquette manuscrite collée sur la machine : « This machine is a server. DO NOT POWER IT DOWN!! »",
+      "sources": [
+        "cern-histoire",
+        "sciencemuseum"
+      ]
+    },
+    {
+      "claim": "Le CERN est installé à Genève",
+      "sources": [
+        "britannica",
+        "cern-naissance"
+      ]
+    },
+    {
+      "claim": "Tim Berners-Lee rédige sa proposition en mars 1989, pour que les chercheurs partagent leurs informations",
+      "sources": [
+        "cern-histoire",
+        "sciencemuseum",
+        "britannica"
+      ]
+    },
+    {
+      "claim": "Janvier 1993 : environ 50 serveurs HTTP connus",
+      "sources": [
+        "w3c",
+        "slac"
+      ]
+    },
+    {
+      "claim": "30 avril 1993 : le CERN place le logiciel du web dans le domaine public et renonce à ses droits de propriété intellectuelle ; chacun peut l'utiliser sans rien payer",
+      "sources": [
+        "cern-30ans",
+        "cern-naissance",
+        "w3c",
+        "npr"
+      ]
+    },
+    {
+      "claim": "Fin 1993 : plus de 500 serveurs selon le CERN, 623 sites relevés en décembre 1993 par le MIT (d'où « plus de 600 »)",
+      "sources": [
+        "cern-histoire",
+        "mit",
+        "rfc2235"
+      ]
+    },
+    {
+      "claim": "Fin 1994 : 10 000 serveurs selon le CERN, 10 022 sites relevés en décembre 1994 par le MIT",
+      "sources": [
+        "cern-histoire",
+        "mit",
+        "rfc2235"
+      ]
+    },
+    {
+      "claim": "Calcul affiché : 10 022 / 623 = 16,1, soit seize fois plus en un an",
+      "sources": [
+        "mit",
+        "rfc2235"
+      ]
+    },
+    {
+      "claim": "La mise à disposition gratuite du web est ce qui lui a permis de se répandre",
+      "sources": [
+        "cern-30ans",
+        "npr"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cern-histoire",
+      "label": "CERN – A short history of the Web",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+    },
+    {
+      "id": "cern-naissance",
+      "label": "CERN – La naissance du web",
+      "url": "https://home.cern/fr/science/computing/birth-web"
+    },
+    {
+      "id": "cern-30ans",
+      "label": "CERN – 30 years of a free and open Web",
+      "url": "https://home.cern/30-years-free-and-open-web/"
+    },
+    {
+      "id": "w3c",
+      "label": "W3C – A Little History of the World Wide Web",
+      "url": "https://www.w3.org/History.html"
+    },
+    {
+      "id": "mit",
+      "label": "MIT – Matthew Gray, Web Growth Summary (relevés du Wanderer)",
+      "url": "https://stuff.mit.edu/~mkgray/net/web-growth-summary.html"
+    },
+    {
+      "id": "rfc2235",
+      "label": "IETF – RFC 2235, Hobbes' Internet Timeline",
+      "url": "https://datatracker.ietf.org/doc/html/rfc2235"
+    },
+    {
+      "id": "sciencemuseum",
+      "label": "Science Museum (Londres) – Happy 25th birthday World Wide Web",
+      "url": "https://blog.sciencemuseum.org.uk/happy-25th-birthday-world-wide-web"
+    },
+    {
+      "id": "slac",
+      "label": "SLAC (Stanford) – Spinning the World-Wide Web, chronologie",
+      "url": "https://www-sldnt.slac.stanford.edu/sld/Home/FromVMS/beamline/history.html"
+    },
+    {
+      "id": "npr",
+      "label": "NPR – 30 years ago, one decision altered the course of our connected world",
+      "url": "https://www.npr.org/2023/04/30/1172276538/world-wide-web-internet-anniversary"
+    },
+    {
+      "id": "britannica",
+      "label": "Britannica – World Wide Web",
+      "url": "https://kids.britannica.com/students/article/World-Wide-Web-WWW/571030"
+    }
+  ],
+  "captions": {
+    "short": "Fin 1990, le web entier tient sur un seul ordinateur, au CERN. Le 30 avril 1993, le CERN renonce à ses droits : chacun peut utiliser le web gratuitement. Fin 1994, on compte déjà 10 000 serveurs.\n\nSources : CERN, W3C, MIT.\n\n#histoire #web #internet #culturegénérale #technologie",
+    "youtube_title": "Le jour où le web est devenu gratuit (CERN, 30 avril 1993)",
+    "youtube_description": "Fin 1990, le web entier tient sur un seul ordinateur, au CERN, à Genève. Début 1993, il ne compte encore qu'une cinquantaine de serveurs. Le 30 avril 1993, le CERN place le logiciel du web dans le domaine public. Fin 1994, on compte 10 000 serveurs. L'histoire du web gratuit en moins d'une minute.\n\nSources : CERN (A short history of the Web, 30 years of a free and open Web), W3C (A Little History of the World Wide Web), MIT (Matthew Gray, Web Growth Summary), Science Museum de Londres.\n\n#histoire #web #internet #culturegénérale"
+  }
+}
