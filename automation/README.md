@@ -5,5 +5,5 @@ la version qui s'exécute est celle enregistrée dans la tâche planifiée.
 
 | Tâche | Quand (heure de Paris) | Consigne |
 |---|---|---|
-| Reel du jour : production | chaque jour à 5 h 17 | `production.md` |
-| Reels : publication des validés | chaque jour à 12 h 07 et 19 h 07 | `publication.md` |
+| Reels : production (2 par jour) | 5 h 17 et 7 h 17, un reel par exécution, dans la limite de l'onglet « Réglages » (B10) | `production.md` |
+| Reels : publication des validés | 9 h 53 et 18 h 53, un reel publié par passage | `publication.md` |
